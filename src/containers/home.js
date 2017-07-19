@@ -13,8 +13,8 @@ import {
 } from 'react-native';
 
 import { connect } from 'react-redux'
-import { add, done } from './actions'
-import { ADD, DONE } from './actionsTypes'
+import { add, done } from '../actions/actions'
+import { ADD, DONE } from '../actions/actionsTypes.js'
 import uuidv4 from 'uuid'
 
 class Todo extends Component {

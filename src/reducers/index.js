@@ -1,5 +1,5 @@
 import { combineReducers } from 'redux'
-import { ADD, DONE } from './actionsTypes'
+import { ADD, DONE } from '../actions/actionsTypes'
 import uuidv4 from 'uuid'
 // 原始默认state
 const defaultState = {
